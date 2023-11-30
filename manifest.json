@@ -1,0 +1,17 @@
+{
+ "name": "keep counting",
+ "version" : "0.0.1",
+ "manifest_version" : 3,
+ "permissions": [
+	 "storage",
+	 "offscreen",
+	 "scripting",
+	 "activeTab"
+ ],
+ "background": {
+	 "service_worker" : "script.js"
+ },
+	"action": {
+    "default_title": "background counter"
+  }
+}
